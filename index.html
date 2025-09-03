@@ -143,13 +143,13 @@
 
             // Configuration for the wheel
             const segments = [
-                { text: '75% Off Haircut', color: '#ff7f50' },
-                { text: 'Free Shampoo', color: '#87ceeb' },
-                { text: '20% Off Color', color: '#ffd700' },
-                { text: 'Free Nail Art', color: '#32cd32' },
-                { text: '10% Off Any Service', color: '#ff6347' },
-                { text: 'Free Hair Spa', color: '#4682b4' },
-                { text: '30% Off Facial', color: '#da70d6' },
+                { text: 'Free Head massage on Hair Cut', color: '#ff7f50' },
+                { text: 'Buy 2 Spa - Get one free', color: '#87ceeb' },
+                { text: 'Free Pedicure on Manicure', color: '#ffd700' },
+                { text: 'Flat 25% on Makeup', color: '#32cd32' },
+                { text: 'Six Time  free Eye Brows', color: '#ff6347' },
+                { text: 'Free 500 points', color: '#4682b4' },
+                { text: '30% off on Global Colour', color: '#da70d6' },
                 { text: 'Try Again', color: '#ccc' },
             ];
 
@@ -241,7 +241,7 @@
                     if (winningSegment.text === 'Try Again') {
                          showMessageBox('Oops! Try Again', 'The wheel landed on "Try Again". Better luck next time!');
                     } else {
-                        showMessageBox('Congratulations!', `You won: ${winningSegment.text}!`);
+                        showMessageBox('Congratulations!', `You won: ${winningSegment.text}! Take a Screen shotshow to our staff .*T&C apply`);
                     }
 
                     // Reset for next spin
@@ -260,4 +260,5 @@
     </script>
 </body>
 </html>
+
 
